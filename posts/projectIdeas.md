@@ -1,12 +1,12 @@
 ---
-title: Project Ideas
+title: Project Ideas/Notes
 description: This is our ideas for how were going to create the project.
 date: 2022-03-20
 tags:
   - number 2
 layout: layouts/post.njk
 ---
-## Current Project Ideas
+## Current Project Ideas (Week 10)
 
 ### Idea 1
 - whos here will have 2 states
