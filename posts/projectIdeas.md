@@ -22,8 +22,7 @@ layout: layouts/post.njk
   - State 2: when hovered, a tooltip will appear with user's "name" (anonymous [animal]) and last accessed data
   ![hovered component](https://user-images.githubusercontent.com/73369711/159194393-f45958ca-01d1-4600-b05e-daa351d930a3.JPG)
   - State 3: when clicked, default state will enlarge horizontally to a rectangular shape with icon, user's "name", and last accessed data. When whos-here is not hovered over anymore after click, it will return to default position
-  ![clicked component](https://user-images.githubusercontent.com/73369711/159194400-3a8476fc-981d-4214-a5c7-3f767c3e9d58.JPG)
-
+  ![rpg character clicked](https://user-images.githubusercontent.com/73369711/159196319-58b4bd82-d542-42c7-a670-077dd28fcbc6.JPG)
 
 ### Hash Generation with Randomized Icons/Colors
 - Hash generation will be kept seperate from RPG- character seed generation.
