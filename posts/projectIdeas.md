@@ -11,6 +11,7 @@ layout: layouts/post.njk
 ### Idea 1
 - whos here will have 2 states
   - State 1: default, a circle with background color and icon in the circle
+  ![default component](../img/default.png)
   - State 2: when hovered, a tooltip will appear with user's "name" (anonymous [animal]) and last accessed data
 - icon will be generated using [rpg-character](https://www.npmjs.com/package/@lrnwebcomponents/rpg-character) generated from user's public ip
 - whos-here background color will be generated based on user's public ip and 
