@@ -7,6 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 ## Project Requirements
+Project Issue: https://github.com/elmsln/issues/issues/961
 
 ### General Requirements
  - When the whos-here widget is on a page it should show who is there and when they last accessed
