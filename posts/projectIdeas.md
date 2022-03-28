@@ -6,7 +6,9 @@ tags:
   - number 2
 layout: layouts/post.njk
 ---
-## Current Project Ideas (Week 10)
+# Project Ideas 
+
+## Week 10
 
 ### Idea 1
 - whos here will have 2 states
@@ -29,3 +31,9 @@ layout: layouts/post.njk
 - This feature will allow any developer to display a set of images/text in the slot for the icon.
 - RPG-character will be used as default icons in our demo.
 - In the case of using RPG-character, the most signifigant color will be passed into simple-colors and inverted for the element's background.
+
+## Week 11
+- put together flow of whos-here code between the user, front, and backend
+- created visualization of db table
+- deployed project repo to vercel
+- will begin frontend, backend, and api coding this week
