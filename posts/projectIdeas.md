@@ -34,8 +34,8 @@ layout: layouts/post.njk
 
 ## Week 11
 - put together flow of whos-here code between the user, front, and backend
-- ![project flow](https://user-images.githubusercontent.com/73369711/160329180-0245894f-8933-45c1-acbb-7af2def41b4a.JPG)
+ ![project flow](https://user-images.githubusercontent.com/73369711/160329180-0245894f-8933-45c1-acbb-7af2def41b4a.JPG)
 - created visualization of db table
-- ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
+ ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
 - deployed project repo to vercel
 - will begin frontend, backend, and api coding this week
