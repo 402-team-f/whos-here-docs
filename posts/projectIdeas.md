@@ -38,5 +38,3 @@ layout: layouts/post.njk
 - ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
 - deployed project repo to vercel
 - will begin frontend, backend, and api coding this week
-
-TESTING AUTO PULL
