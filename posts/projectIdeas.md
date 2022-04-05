@@ -38,3 +38,22 @@ layout: layouts/post.njk
 - ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
 - deployed project repo to vercel
 - will begin frontend, backend, and api coding this week
+
+## Week 12
+
+### Database
+- planetscale fully connected to project (auth.js returns the whole table when ran)
+  - note for getting database content: pscale connect whos-here-db main --execute 'node api/auth.js'
+- added some db endpoints but they still need some testing to see if they work right
+- need to link endpoints to their functionality on front end
+
+### Front End
+- added front end to crop rpg character to the right size with a ring around the head
+- rpg-character images don't currently load on vercel site but load locally. need to figure out image plugin to make it work
+- once figure out the resizing of rpg characters will add other functionality (expanding on click, editiable username, etc.)
+
+- How it looks locally:
+-
+
+- How it looks on Vercel:
+-
