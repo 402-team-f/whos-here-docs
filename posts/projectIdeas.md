@@ -57,3 +57,20 @@ layout: layouts/post.njk
 
 - How it looks on Vercel:
 -![vercel current status](https://user-images.githubusercontent.com/73369711/161682682-6e54ee39-ec55-4f45-945c-fd68d857da57.JPG)
+
+## Week 13
+
+### Front End
+- Added tooltips
+- added username changeability
+- added last accessed
+- added functionality for watching if a user is active
+
+### Back End
+- fixed db structure
+- made more endpoints
+- progressed on endpoints
+
+### API
+- started openAPI/swagger and researched how to implement project
+
