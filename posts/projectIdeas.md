@@ -6,6 +6,60 @@ tags:
   - number 2
 layout: layouts/post.njk
 ---
+## Week 14
+
+### Front End
+- changed the method of detecting user activeness
+- hashes username to get ring color
+- will be adding resizing from the new rpg-character update 
+
+### Back End
+- Added delete endpoint but not fully set up yet
+- (?) tried changes for all endpoint in both the endpoint itself and where they are being called in fetch but keep getting an error with the db
+  - I can't figure out if I missed a step setting up the planetscale or if my endpoints/fetches are wrong
+
+## Week 13
+
+### Front End
+- Added tooltips
+- added username changeability
+- added last accessed
+- added functionality for watching if a user is active
+
+### Back End
+- fixed db structure
+- made more endpoints
+- progressed on endpoints
+
+### API
+- started openAPI/swagger and researched how to implement project
+
+## Week 12
+
+### Database
+- planetscale fully connected to project (auth.js returns the whole table when ran)
+  - note for getting database content: pscale connect whos-here-db main --execute 'node api/auth.js'
+- added some db endpoints but they still need some testing to see if they work right
+- need to link endpoints to their functionality on front end
+
+### Front End
+- added front end to crop rpg character to the right size with a ring around the head
+- rpg-character images don't currently load on vercel site but load locally. need to figure out image plugin to make it work
+- once figure out the resizing of rpg characters will add other functionality (expanding on click, editiable username, etc.)
+
+- How it looks locally:
+-![local current status](https://user-images.githubusercontent.com/73369711/161682672-906dd0fd-437b-4f4d-983e-cf6171e5f6b6.JPG)
+
+- How it looks on Vercel:
+-![vercel current status](https://user-images.githubusercontent.com/73369711/161682682-6e54ee39-ec55-4f45-945c-fd68d857da57.JPG)
+
+## Week 11
+- put together flow of whos-here code between the user, front, and backend
+- ![project flow](https://user-images.githubusercontent.com/73369711/160329180-0245894f-8933-45c1-acbb-7af2def41b4a.JPG)
+- created visualization of db table
+- ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
+- deployed project repo to vercel
+- will begin frontend, backend, and api coding this week
 
 ## Week 10
 
@@ -30,47 +84,3 @@ layout: layouts/post.njk
 - This feature will allow any developer to display a set of images/text in the slot for the icon.
 - RPG-character will be used as default icons in our demo.
 - In the case of using RPG-character, the most signifigant color will be passed into simple-colors and inverted for the element's background.
-
-## Week 11
-- put together flow of whos-here code between the user, front, and backend
-- ![project flow](https://user-images.githubusercontent.com/73369711/160329180-0245894f-8933-45c1-acbb-7af2def41b4a.JPG)
-- created visualization of db table
-- ![db diagram](https://user-images.githubusercontent.com/73369711/160329138-7c2c39fa-28b8-4813-849c-c9b57b1041dc.JPG)
-- deployed project repo to vercel
-- will begin frontend, backend, and api coding this week
-
-## Week 12
-
-### Database
-- planetscale fully connected to project (auth.js returns the whole table when ran)
-  - note for getting database content: pscale connect whos-here-db main --execute 'node api/auth.js'
-- added some db endpoints but they still need some testing to see if they work right
-- need to link endpoints to their functionality on front end
-
-### Front End
-- added front end to crop rpg character to the right size with a ring around the head
-- rpg-character images don't currently load on vercel site but load locally. need to figure out image plugin to make it work
-- once figure out the resizing of rpg characters will add other functionality (expanding on click, editiable username, etc.)
-
-- How it looks locally:
--![local current status](https://user-images.githubusercontent.com/73369711/161682672-906dd0fd-437b-4f4d-983e-cf6171e5f6b6.JPG)
-
-- How it looks on Vercel:
--![vercel current status](https://user-images.githubusercontent.com/73369711/161682682-6e54ee39-ec55-4f45-945c-fd68d857da57.JPG)
-
-## Week 13
-
-### Front End
-- Added tooltips
-- added username changeability
-- added last accessed
-- added functionality for watching if a user is active
-
-### Back End
-- fixed db structure
-- made more endpoints
-- progressed on endpoints
-
-### API
-- started openAPI/swagger and researched how to implement project
-
