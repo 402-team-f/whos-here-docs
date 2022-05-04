@@ -6,6 +6,17 @@ tags:
   - number 2
 layout: layouts/post.njk
 ---
+## Final Week
+Woooooo!
+- We got users displaying and polling every 30 seconds
+- Deleting users is still in the works
+- OpenAPI is done
+- IP integration is not working but we replaced with working solution
+- Able to delete all users currently but will be removed when it is not needed later
+- Tooltip stlying is close as well as 'Anonymous' names
+- All rpg sizing, ring, accent color are working and actually look good!
+- Will be changing to the '+[other user amount]' next
+
 ## Week 14
 
 ### Front End
